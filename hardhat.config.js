@@ -9,8 +9,8 @@ module.exports = {
     networks: {
         hardhat: {},
         rinkeby: {
-            url: "https://eth-rinkeby.alchemyapi.io/v2/yCegcSRJFfk6jIEc1a5wVz68ww94NMcc",
-            accounts: ["e0ad52de2328ca7a474e6b15d5306398fab24eadb2905f9c5d4ef16e2bb37637"]
+            url: ALCHEMY_API_KEY_URL,
+            accounts: [RINKEBY_PRIVATE_KEY]
         }
     },
     solidity: {
